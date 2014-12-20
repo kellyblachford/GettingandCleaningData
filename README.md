@@ -4,6 +4,7 @@ GettingandCleaningData
 Course project for getting and cleaning data
 
 Description
+
 The data cleansing script (run_analysis.R) performs the following tasks:
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -12,11 +13,13 @@ Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Process
+
 Run the script with the R file:  run_analysis.R.
 The script creates a tidy dataset is in this repository : finaldata.txt. 
 This file contains one row for each subject/activity unique combination and columns for the average of all mean and standard deviation features.
 
 Code Book
+
 The following average features are included in the output file for each subject/activity:
 tBodyAcc-mean()-Y                  
 tBodyAcc-std()-X                  
